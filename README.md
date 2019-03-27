@@ -10,9 +10,9 @@ Step up the environment:
 # For CPU
 pip install tensorflow
 # For GPU
-pip install tensorflow-gpu
-conda create -n tensorflow1 pip python=3.6
-activate tensorflow1
+ C:\> pip install tensorflow-gpu
+ C:\> conda create -n tensorflow1 pip python=3.6
+ C:\> activate tensorflow1
 
 (tensorflow1) C:\> conda install -c anaconda protobuf
 (tensorflow1) C:\> pip install pillow
@@ -34,6 +34,9 @@ This creates a name_pb2.py file from every name.proto file in the \object_detect
 
 
 If facing any problem https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html 
+
+
+
 
 
 
