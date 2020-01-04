@@ -48,8 +48,17 @@ This creates a name_pb2.py file from every name.proto file in the \object_detect
 
 (tensorflow1) C:\tensorflow1\models\research> python setup.py install
 
+
+```
+
+## How to run the program after environment setup
+
+1. To run on static images.Copy object_detection_tutorial.ipynb to the C:\tensorflow1\models\research\object_detection> and run the following command:
+```
 (tensorflow1) C:\tensorflow1\models\research\object_detection> jupyter notebook object_detection_tutorial.ipynb
 ```
+2. To run the object detection on live camera feed copy the converted.py file to C:\tensorflow1\models\research\object_detection and run it using Spyder.
+
 
 <p> If facing any problem https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html </p>
 
