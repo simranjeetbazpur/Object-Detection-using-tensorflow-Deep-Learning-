@@ -1,15 +1,19 @@
 # Object Detection using tensorflow(Deep-Learning)
 
-Steps to run:
+## Steps to run:
 
 1. Install Anaconda Python 3.6
 2. Run the following commands.
 
 
-Step up the environment:
-# For CPU
+## Step up the environment:
+### For CPU
+
+```
 pip install tensorflow
-# For GPU
+```
+### For GPU
+```
  C:\> pip install tensorflow-gpu
  C:\> conda create -n tensorflow1 pip python=3.6
  C:\> activate tensorflow1
@@ -45,9 +49,9 @@ This creates a name_pb2.py file from every name.proto file in the \object_detect
 (tensorflow1) C:\tensorflow1\models\research> python setup.py install
 
 (tensorflow1) C:\tensorflow1\models\research\object_detection> jupyter notebook object_detection_tutorial.ipynb
+```
 
-
-If facing any problem https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html 
+<p> If facing any problem https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html </p>
 
 
 
